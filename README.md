@@ -8,7 +8,9 @@ Web crawler will output a file (csv|xml) and for each page a list of assets (e.g
 To access the file check that a Airflow -> s3 Connection ("aws_conn") exist with format like that: 
 
 Name: aws_conn
+
 Type: S3
+
 Extra: {"aws_access_key_id":"_your_aws_access_key_id_", "aws_secret_access_key": "_your_aws_secret_access_key_"}
 
 ToDo:
